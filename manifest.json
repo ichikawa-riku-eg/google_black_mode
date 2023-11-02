@@ -1,0 +1,16 @@
+{
+    "name": "LinkWebColorCode",
+    "version": "1.0.0",
+    "manifest_version": 3,
+    "description": "a extention for Linked Web",
+    "content_scripts": [
+        {
+            "matches": [
+                "https://www.google.com/*"
+            ],
+            "css": [
+                "css/style.css"
+            ]
+        }
+    ]
+}
